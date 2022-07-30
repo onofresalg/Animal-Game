@@ -1,0 +1,15 @@
+C:\Users\junior\Documents\Projetos\CSharp\Animals\Animals.Console\bin\Debug\net6.0\Animals.Console.exe
+C:\Users\junior\Documents\Projetos\CSharp\Animals\Animals.Console\bin\Debug\net6.0\Animals.Console.deps.json
+C:\Users\junior\Documents\Projetos\CSharp\Animals\Animals.Console\bin\Debug\net6.0\Animals.Console.runtimeconfig.json
+C:\Users\junior\Documents\Projetos\CSharp\Animals\Animals.Console\bin\Debug\net6.0\Animals.Console.dll
+C:\Users\junior\Documents\Projetos\CSharp\Animals\Animals.Console\bin\Debug\net6.0\Animals.Console.pdb
+C:\Users\junior\Documents\Projetos\CSharp\Animals\Animals.Console\obj\Debug\net6.0\Animals.Console.csproj.AssemblyReference.cache
+C:\Users\junior\Documents\Projetos\CSharp\Animals\Animals.Console\obj\Debug\net6.0\Animals.Console.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\junior\Documents\Projetos\CSharp\Animals\Animals.Console\obj\Debug\net6.0\Animals.Console.AssemblyInfoInputs.cache
+C:\Users\junior\Documents\Projetos\CSharp\Animals\Animals.Console\obj\Debug\net6.0\Animals.Console.AssemblyInfo.cs
+C:\Users\junior\Documents\Projetos\CSharp\Animals\Animals.Console\obj\Debug\net6.0\Animals.Console.csproj.CoreCompileInputs.cache
+C:\Users\junior\Documents\Projetos\CSharp\Animals\Animals.Console\obj\Debug\net6.0\Animals.Console.dll
+C:\Users\junior\Documents\Projetos\CSharp\Animals\Animals.Console\obj\Debug\net6.0\refint\Animals.Console.dll
+C:\Users\junior\Documents\Projetos\CSharp\Animals\Animals.Console\obj\Debug\net6.0\Animals.Console.pdb
+C:\Users\junior\Documents\Projetos\CSharp\Animals\Animals.Console\obj\Debug\net6.0\Animals.Console.genruntimeconfig.cache
+C:\Users\junior\Documents\Projetos\CSharp\Animals\Animals.Console\obj\Debug\net6.0\ref\Animals.Console.dll
