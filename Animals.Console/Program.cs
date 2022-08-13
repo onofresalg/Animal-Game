@@ -4,12 +4,16 @@ class Program
 {
     static void Main(string[] args)
     {
-        Guess yes = new("Is the animal a dog?", new Guess.Right(), null);
-        Guess no = new("Is the animal a cat?", new Guess.Wrong("Sorry", null, null), null);
+        var game = new Game("Does the animal bark?", "Dog", "Cat");
 
-        Characteristic newCharacteristic = new("Does the animal bark?", yes, no);
-        var game = new Game(newCharacteristic);
+        Console.WriteLine(game.Ready());
 
-        Console.ReadKey();
+        Console.WriteLine(game.Start());
+
+        Console.WriteLine(game.PrepareRound());
+
+        char option = Console.ReadKey().KeyChar;
+
+        game.NextRound(option);
     }
 }

@@ -1,10 +1,10 @@
 ﻿namespace Animals;
 
-public partial class Guess
+partial class Guess
 {
-    public class Wrong : TreeNode
+    public class Learn : Characteristic
     {
-        public Wrong(string guess, TreeNode yes, TreeNode no)
-            : base(guess, yes, no) { }
+        public Learn(string animal, Characteristic yes, Characteristic no)
+            : base(animal, yes, no) { }
     }
 }

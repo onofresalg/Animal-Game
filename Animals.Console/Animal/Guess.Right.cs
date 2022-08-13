@@ -1,9 +1,9 @@
 ﻿namespace Animals;
 
-public partial class Guess
+partial class Guess
 {
-    public class Right : TreeNode
+    public class Right : Characteristic
     {
-        public Right() : base ("You win!") { }
+        public Right() : base ("You win!", null, null) { }
     }
 }

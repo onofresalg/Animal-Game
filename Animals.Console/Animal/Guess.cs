@@ -1,7 +1,17 @@
 ﻿namespace Animals;
 
-public partial class Guess : TreeNode
+partial class Guess : Characteristic
 {
-    public Guess(string guess, TreeNode? yes, TreeNode? no)
-        : base(guess, yes, no) { }
+    public string Animal { get; set; }
+
+    public Guess(string guess, Characteristic? correct, Characteristic? wrong)
+        : base(string.Empty, correct, wrong)
+    {
+        Animal = guess;
+    }
+
+    public int Compare(string? obj)
+    {
+        return Animal.CompareTo(obj);
+    }
 }

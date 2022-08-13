@@ -2,37 +2,23 @@
 
 public partial class Game
 {
-    public TreeNode node { get; set; }
-    private NewGame _currentGame;
+    private Characteristic _animalCharacteristic;
 
-    public Game(TreeNode firstGuess)
+    public Game(string description, string correctAnimal, string wrongAnimal)
     {
-        node = firstGuess;
-        Start();
+        Characteristic correct = new Guess(correctAnimal, new Guess.Right(), Learn());
+        Characteristic wrong = new Guess(wrongAnimal, new Guess.Right(), Learn());
+
+        _animalCharacteristic = new Characteristic(description, correct, wrong);
     }
 
-    public void Guess(string answer)
+    public string Ready()
     {
-        _currentGame.NextRound(answer);
+        return "Think in an animal to start the game...";
     }
 
-    public void Ready()
+    public string Start()
     {
-        Console.WriteLine(_currentGame.GetItem());
-
-        Guess(Console.ReadLine());
-
-        Ready();
-    }
-
-    private void Start()
-    {
-        Console.WriteLine("Think in an animal to start the game");
-
-        _currentGame = new NewGame(node, node);
-
-        Console.WriteLine("...");
-
-        Ready();
+        return FirstQuestion();
     }
 }
